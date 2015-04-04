@@ -18,7 +18,7 @@ app.get('/', function(request, response) {
 });
 
 // hello route
-app.get('/hello', hellobot);
+app.post('/hello', hellobot);
 
 // error handler
 app.use(function(error, request, response, next) {
