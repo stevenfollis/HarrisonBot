@@ -3,9 +3,6 @@ var responses = require('./responses');
 
 module.exports = function (request, response, next) {
 
-  //console.log(responses);
-  //console.log(_.sample(responses));
-
   // store username
   var userName = request.body.user_name;
 
