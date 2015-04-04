@@ -1,11 +1,17 @@
+var _ = require('lodash');
+var responses = require('./responses');
+
 module.exports = function (request, response, next) {
+
+  //console.log(responses);
+  //console.log(_.sample(responses));
 
   // store username
   var userName = request.body.user_name;
 
   // create a payload to send back
   var botPaylod = {
-    text: 'Hello, there ' + userName +', you big ol\' DACK'
+    text: _.sample(responses) // use lodash's sample function to grab a random string from the responses array
   }
 
   // avoid an infinite loop
