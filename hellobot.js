@@ -5,7 +5,7 @@ module.exports = function (request, response, next) {
 
   // create a payload to send back
   var botPaylod = {
-    text: 'Hello, ' + userName + '!'
+    text: 'Hello, there, you big ol\' DACK'
   }
 
   // avoid an infinite loop
