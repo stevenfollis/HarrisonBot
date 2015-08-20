@@ -13,12 +13,9 @@ module.exports = (robot) ->
    robot.hear /badger/i, (res) ->
      res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   
-   goheels = ['GHGA', '#GHGA', 'Go Heels Go America', 'Go Heels', 'Roll Damn Heels']
+   goheels = ['GHGA', '#GHGA', 'Go Heels Go America', 'Go Heels', 'Roll Damn Heels', 'Go Heels Go', 'gO hEeLs GO amERicA']
   
-   robot.hear /unc/i, (res) ->
-     res.send res.random goheels
-  
-   robot.hear /carolina/i, (res) ->
+   robot.hear /\bunc\b|\bUNC\b|\bcarolina\b|\bCarolina\b/i, (res) ->
      res.send res.random goheels
      
   #
