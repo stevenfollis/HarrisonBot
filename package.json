@@ -5,6 +5,7 @@
   "author": "steven_follis@live.com",
   "description": "Harrison's consciousness, just better and with less Evan Williams.",
   "dependencies": {
+    "coffee-script": "^1.9.3",
     "hubot": "^2.15.0",
     "hubot-azure-scripts": "^0.1.6",
     "hubot-diagnostics": "0.0.1",
