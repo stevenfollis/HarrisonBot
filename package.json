@@ -4,6 +4,9 @@
   "private": true,
   "author": "steven_follis@live.com",
   "description": "Harrison's consciousness, just better and with less Evan Williams.",
+  "scripts": {
+    "start": "bash ./bin/hubot"
+  },
   "dependencies": {
     "coffee-script": "^1.9.3",
     "hubot": "^2.15.0",
