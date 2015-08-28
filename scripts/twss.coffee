@@ -3,7 +3,7 @@ module.exports = (robot) ->
   #
   # listens to script or script me
   #
-  twss = require 'twss'
+  twss = require '../twss'
 
   robot.hear /(.*)/i, (msg) ->
 
