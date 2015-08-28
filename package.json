@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "coffee-script": "^1.9.3",
-    "hubot": "^2.15.0",
+    "hubot": "^2.16.0",
     "hubot-azure-scripts": "^0.1.6",
     "hubot-bro": "^0.1.1",
     "hubot-conspire": "^1.0.0",
